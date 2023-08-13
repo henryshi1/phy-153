@@ -1,7 +1,7 @@
 # phy-153
 PHY 153 (Fall 2019 - Spring 2020), Stony Brook University
 
-Python scripts submitted for 4 Homework assignments and 1 Final project. Homework assignments in the **Homework** folder and final project in the **
+Python scripts submitted for 4 Homework assignments and 1 Final project. Homework assignments in the **Homework** folder and final project in the **Final Project** folder.
 
 # Homework 1
 
