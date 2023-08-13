@@ -1,0 +1,12 @@
+T = -263.35 + 3.71P
+A = -263.35
+B = 3.71
+S_m = 133.9 (chi-square)
+ndf = 3
+S_m/ndf = 44.6333333333
+p-value ~ 0 due to large S_m
+coeff. of determ.: r^2 = 0.999418377364
+correlation coeff.: r = 0.999709146384
+
+Absolute zero (accepted): -273.15 C
+Absolute zero (fitted): -263.35 C
