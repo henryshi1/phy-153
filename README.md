@@ -119,7 +119,7 @@ $$T = A+BP$$
 
 # Final Project
 
-See `Final Project` for files.
+See `Final Project` folder for files.
 * Python Source Files: `*.py`
 * Data Files: `*.csv`
 * Data Plots generated with Python: `*.png`
