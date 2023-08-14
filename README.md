@@ -126,7 +126,7 @@ See `Final Project` for files.
 * Lab Report - LaTeX source file: `shi_phy153_final_project.tex`
 * Lab Report - LaTeX compiled PDF: `shi_phy153_final_project.pdf`
 
-Fitted a linear model to plots of $K_{max}$ (kinetic energy) vs $\nu$ (frequency) for 5 different metals.
+5 different metals:
 * Sodium, Na
 * Platinum, Pt
 * Silver, Ag
@@ -136,7 +136,7 @@ $$K_{max} = h\nu - W
 
 <ol>
   <li>
-  
+  Fitted a linear model to plots of $K_{max}$ (kinetic energy) vs $\nu$ (frequency) for 5 different metals.
   <ol type='a'>
     <li>Evaluated quality of fit using $\chi^2$ and $p$-value.</li>
 	<li>Calculated work function, $W$ from the y-intercept of the fitted equation for each metal. Compared the calculated $W$ to true $W_{true}$ for each metal using $f$-statistic and $p$-value.</li>
