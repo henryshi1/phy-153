@@ -66,3 +66,13 @@ $$T = 2\pi\sqrt{\frac{l}{g}}$$
 
   * Use error propagation formula:
 $$\sigma_f^2 = \left( \frac{\partial f}{\partial x_1} \right)^2 \sigma_{x1}^2 + \left( \frac{\partial f}{\partial x_2} \right)^2 \sigma_{x2}^2 + \dots + \left( \frac{\partial f}{\partial x_n} \right)^2 \sigma_{xn}^2$$
+
+# Homework 4
+
+Use the numpy module functions: exp and divide define functions f given below and their uncertainties sf (using error propagation method). Formulae for sf should be derived on paper, and its final form should be coded in python. x values should be used as a list.
+
+1. Calculate uncertainties sf on f (x) = 2 exp(-x/2) for the following x values:
+$$-10, -0.01, 20, 30, 45, 101, 0.5$$
+Assume 10% uncertainty i.e. $\sigma_x/x = 0.10$.
+
+2. Calculate a weighted average (using numpy and its functions instead of loops) of f(x) for x values given in 1) 
