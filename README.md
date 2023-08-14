@@ -32,3 +32,15 @@ Implemented Lecture 4 examples 1-6 in Python. `See Homework/hw02` for assignment
 $$C = \frac{5}{9} (F-32)$$
 
 # Homework 3
+
+* `L7ex1.py` - Math.py Module, Trigonometry, Exponents, Square Root, Math Constants
+
+* `L7ex2.py` - Module Import, Trigonometry
+
+* `L7ex3.py` - Write a code that calculates sin(x)+2cos(x) for x of 10 degrees and of 20 degrees, in a user defined function with argument x.
+
+* `L7ex4.py` - $A=2$ is a constant. Write a code to calculate values of a function $f$
+
+$$f(x) = A\sqrt{x}$$
+
+for x=10.56 in 2 ways: with a user-defined function and without
