@@ -43,7 +43,7 @@ $$C = \frac{5}{9} (F-32)$$
 
 $$f(x) = A\sqrt{x}$$
 
-for x=10.56 in 2 ways: with a user-defined function and without
+  for $x=10.56$ in 2 ways: with a user-defined function and without
 
 * `L7ex5.py` - $A=2$ is a constant. Write a code to calculate values of a function $f$
 
