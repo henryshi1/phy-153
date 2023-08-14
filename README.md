@@ -69,10 +69,15 @@ $$\sigma_f^2 = \left( \frac{\partial f}{\partial x_1} \right)^2 \sigma_{x1}^2 + 
 
 # Homework 4
 
-Use the `numpy` module functions: exp and divide define functions f given below and their uncertainties sf (using error propagation method). Formulae for sf should be derived on paper, and its final form should be coded in python. x values should be used as a list.
+`See Homework/hw03` for assignment description, Lecture 7 slides, and Python code files. Implemented solutions in file `shi_henry_hw04.py`.
+
+Use the `numpy` module functions `exp` and `divide`, define functions $f$ given below and their uncertainties $\sigma_f$ (using error propagation method). Formulae for $\sigma_f$ should be derived on paper, and its final form should be coded in python. $x$ values should be used as a list.
 
 1. Calculate uncertainties $\sigma_f$ on $f(x) = 2 \exp(-x/2)$ for the following x values:
 $$-10, -0.01, 20, 30, 45, 101, 0.5$$
 Assume 10% uncertainty i.e. $\sigma_x/x = 0.10$.
 
-2. Calculate a weighted average (using numpy and its functions instead of loops) of $f(x)$ for $x$ values given in part 1.) 
+2. Calculate a weighted average (using `numpy` and its functions instead of loops) of $f(x)$ for $x$ values given in part 1.
+
+# Homework 5
+
