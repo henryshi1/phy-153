@@ -33,7 +33,7 @@ $$C = \frac{5}{9} (F-32)$$
 
 # Homework 3
 
-Implemented Lecture 7 examples 1-7 in Python. `See Homework/hw03` for assignment description, Lecture 7 slides, and Python code files. Created the following files:
+Implemented Lecture 7 examples 1-7 in Python. `See Homework/hw03` for assignment description `PHY153_HW03.pdf`, Lecture 5 slides `PHY153_Lecture05.pdf`, Lecture 7 slides `PHY153_Lecture07.pdf`, and Python code files. Created the following files:
 
 * `L7ex1.py` - Math.py Module, Trigonometry, Exponents, Square Root, Math Constants
 
@@ -67,9 +67,11 @@ $$T = 2\pi\sqrt{\frac{l}{g}}$$
   * Use error propagation formula:
 $$\sigma_f^2 = \left( \frac{\partial f}{\partial x_1} \right)^2 \sigma_{x1}^2 + \left( \frac{\partial f}{\partial x_2} \right)^2 \sigma_{x2}^2 + \dots + \left( \frac{\partial f}{\partial x_n} \right)^2 \sigma_{xn}^2$$
 
+* `L7ex8.py` - 
+
 # Homework 4
 
-`See Homework/hw03` for assignment description, Lecture 7 slides, and Python code files. Implemented solutions in file `shi_henry_hw04.py`.
+See `Homework/hw04` for assignment description `PHY153_HW04.pdf` and Python code. Implemented solutions in file `shi_henry_hw04.py`.
 
 Use the `numpy` module functions `exp` and `divide`, define functions $f$ given below and their uncertainties $\sigma_f$ (using error propagation method). Formulae for $\sigma_f$ should be derived on paper, and its final form should be coded in python. $x$ values should be used as a list.
 
@@ -81,3 +83,16 @@ Assume 10% uncertainty i.e. $\sigma_x/x = 0.10$.
 
 # Homework 5
 
+See `Homework/hw05` for assignment description `PHY153_HW05.pdf`, Lecture 15 slides `PHY153_Lecture15.pdf`, and Python code. Implemented solutions in file `shi_homework05.py`. Results are given in `shi_homework05_results.txt`.
+
+* Data
+|   P \[mm Hg\]    | 65  | 75 | 85 | 95 | 105 |
+| T \[$^\circ C$\] | -20 | 17 | 42 | 94 | 127 |
+|     $\sigma$     |  1  | 1  | 1  | 1  |  1  |
+* Functional form
+$$T = A+BP$$,
+* Find:
+  * $A, B$ (fit parameters and their uncertainties)
+  * $s_m$, ndf, $s_m/ndf$, p-value
+  * Give interpretation of a p-value
+* Compare the known value for the absolute zero temperature ($-273.15 ^\circ C$) with the fitted parameter. How good is the agreement (or disagreement)? Quantify your answer by giving the corresponding p-value and its interpretation.
