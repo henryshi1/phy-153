@@ -65,4 +65,4 @@ $$T = 1.936 \pm 0.004\ s$$
 $$T = 2\pi\sqrt{\frac{l}{g}}$$
 
 Use error propagation formula:
-$$\sigma_f^2 = \left( \frac{\partial f}{\partial x_1} \right)^2 \sigma_{x1}^2 + \dots$$
+$$\sigma_f^2 = \left( \frac{\partial f}{\partial x_1} \right)^2 \sigma_{x1}^2 + \left( \frac{\partial f}{\partial x_2} \right)^2 \sigma_{x2}^2 + \dots + \left( \frac{\partial f}{\partial x_n} \right)^2 \sigma_{xn}^2$$
