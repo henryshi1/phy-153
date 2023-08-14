@@ -33,6 +33,8 @@ $$C = \frac{5}{9} (F-32)$$
 
 # Homework 3
 
+Implemented Lecture 7 examples 1-7 in Python. `See Homework/hw03` for assignment description, Lecture 7 slides, and Python code files. Created the following files:
+
 * `L7ex1.py` - Math.py Module, Trigonometry, Exponents, Square Root, Math Constants
 
 * `L7ex2.py` - Module Import, Trigonometry
@@ -47,4 +49,10 @@ $$f(x) = A\sqrt{x}$$
 
 $$f(x) = A\sqrt{x}$$
 
-* `L7ex5.py` - 
+* `L7ex6.py` - **Lecture 5**, textbook problem **3.14**.
+
+    A visitor to a castle measures the depth of a well by dropping a stone and
+timing its fall. She finds the time to fall is $t=3.0 \pm 0.5$ s and calculates
+depth $d=gt^2/2$. What is her conclusion (numerical value), if she takes
+  * a) $g=9.80 m/s^2$ with negligible uncertainty
+  * b) $g=9.81 \pm 0.2 m/s^2$
