@@ -35,21 +35,21 @@ $$C = \frac{5}{9} (F-32)$$
 
 Implemented Lecture 7 examples 1-7 in Python. `See Homework/hw03` for assignment description `PHY153_HW03.pdf`, Lecture 5 slides `PHY153_Lecture05.pdf`, Lecture 7 slides `PHY153_Lecture07.pdf`, and Python code files. Created the following files:
 
-* `L7ex1.py` - Math.py Module, Trigonometry, Exponents, Square Root, Math Constants
+* `L7Ex1.py` - Math.py Module, Trigonometry, Exponents, Square Root, Math Constants
 
-* `L7ex2.py` - Module Import, Trigonometry
+* `L7Ex2.py` - Module Import, Trigonometry
 
-* `L7ex3.py` - Write a code that calculates sin(x)+2cos(x) for x of 10 degrees and of 20 degrees, in a user defined function with argument x.
+* `L7Ex3.py` - Write a code that calculates sin(x)+2cos(x) for x of 10 degrees and of 20 degrees, in a user defined function with argument x.
 
-* `L7ex4.py` - $A=2$ is a constant. Write a code to calculate values of a function $f(x)$ for $x=10.56$ in 2 ways: with a user-defined function and without.
-
-$$f(x) = A\sqrt{x}$$
-
-* `L7ex5.py` - $A=2$ is a constant. Write a code to calculate values of a function $f(x)$ for $x=10.56$ in 2 ways: with a user-defined function and without. Add uncertainty calculation, assuming $\sigma_x / x = 0.10$.
+* `L7Ex4.py` - $A=2$ is a constant. Write a code to calculate values of a function $f(x)$ for $x=10.56$ in 2 ways: with a user-defined function and without.
 
 $$f(x) = A\sqrt{x}$$
 
-* `L7ex6.py` - **Lecture 5**, textbook problem **3.14**.
+* `L7Ex5.py` - $A=2$ is a constant. Write a code to calculate values of a function $f(x)$ for $x=10.56$ in 2 ways: with a user-defined function and without. Add uncertainty calculation, assuming $\sigma_x / x = 0.10$.
+
+$$f(x) = A\sqrt{x}$$
+
+* `L7Ex6.py` - **Lecture 5**, textbook problem **3.14**.
 
     A visitor to a castle measures the depth of a well by dropping a stone and
 timing its fall. She finds the time to fall is $t=3.0 \pm 0.5$ s and calculates
@@ -57,7 +57,7 @@ depth $d=gt^2/2$. What is her conclusion (numerical value of $d$ and its uncerta
   * a) $g=9.80\ m/s^2$ with negligible uncertainty
   * b) $g=9.81 \pm 0.2\ m/s^2$
 
-* `L7ex7.py` - **Lecture 5**, textbook problem **3.9**
+* `L7Ex7.py` - **Lecture 5**, textbook problem **3.9**
 
     Pendulum experiment. Find $g$ and its uncertainty (error propagation):
 $$l = 92.95 \pm 0.15\ cm$$
@@ -67,7 +67,23 @@ $$T = 2\pi\sqrt{\frac{l}{g}}$$
   * Use error propagation formula:
 $$\sigma_f^2 = \left( \frac{\partial f}{\partial x_1} \right)^2 \sigma_{x1}^2 + \left( \frac{\partial f}{\partial x_2} \right)^2 \sigma_{x2}^2 + \dots + \left( \frac{\partial f}{\partial x_n} \right)^2 \sigma_{xn}^2$$
 
-* `L7ex8.py` - 
+* `L7Ex8.py` - In Python define a function that calculates an average of numbers from a given list. Call this function in the main part of your code for the following list of numbers: 10, 12, 19. Code trace it.
+
+* `L7Ex9.py` - For a given list of numbers: 10, 21, 33, 9, -10
+
+    Write a function that takes this list as an argument and returns two values from that list: monimal and maximal. Code trace it.
+
+* `L7Ex10.py` - Consider the following height measurement results for a selected group of 35 people. (see `PHY153_Lecture07.pdf` in `Homework/hw03`)
+
+Write a Python code (with 2 functions) to calculate (**and print**):
+
+1. the range of the height values (max and min),
+2. the mean height, its uncertainty (correctly round the result), and the value of standard deviation
+What do these quantities (from 1 and 2) tell us about this group of people? (Give an answer in a print statement)
+
+**Helpful formulae:**
+
+$$\overline{x} = \frac{1}{n} \sum^n_{i=1} x_i \qquad s^2$$
 
 # Homework 4
 
