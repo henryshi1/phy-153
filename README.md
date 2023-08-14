@@ -53,6 +53,16 @@ $$f(x) = A\sqrt{x}$$
 
     A visitor to a castle measures the depth of a well by dropping a stone and
 timing its fall. She finds the time to fall is $t=3.0 \pm 0.5$ s and calculates
-depth $d=gt^2/2$. What is her conclusion (numerical value), if she takes
+depth $d=gt^2/2$. What is her conclusion (numerical value of $d$ and its uncertainty), if she takes
   * a) $g=9.80\ m/s^2$ with negligible uncertainty
   * b) $g=9.81 \pm 0.2\ m/s^2$
+
+* `L7ex7.py` - **Lecture 5**, textbook problem **3.9**
+
+    Pendulum experiment. Find $g$ and its uncertainty (error propagation):
+$$l = 92.95 \pm 0.15\ cm$$
+$$T = 1.936 \pm 0.004\ s$$
+$$T = 2\pi\sqrt{\frac{l}{g}}$$
+
+Use error propagation formula:
+$$\sigma_f^2 = \left( \frac{\partial f}{\partial x_1} \right)^2 \sigma_{x1}^2 + \dots
