@@ -39,14 +39,12 @@ $$C = \frac{5}{9} (F-32)$$
 
 * `L7ex3.py` - Write a code that calculates sin(x)+2cos(x) for x of 10 degrees and of 20 degrees, in a user defined function with argument x.
 
-* `L7ex4.py` - $A=2$ is a constant. Write a code to calculate values of a function $f$
+* `L7ex4.py` - $A=2$ is a constant. Write a code to calculate values of a function $f(x)$ for $x=10.56$ in 2 ways: with a user-defined function and without.
 
 $$f(x) = A\sqrt{x}$$
 
-  for $x=10.56$ in 2 ways: with a user-defined function and without
-
-* `L7ex5.py` - $A=2$ is a constant. Write a code to calculate values of a function $f$
+* `L7ex5.py` - $A=2$ is a constant. Write a code to calculate values of a function $f(x)$ for $x=10.56$ in 2 ways: with a user-defined function and without. Add uncertainty calculation, assuming $\sigma_x / x = 0.10$.
 
 $$f(x) = A\sqrt{x}$$
 
-for $x=10.56$ in 2 ways: with a user-defined function and without. Add uncertainty calculation, assuming $\sigma_x / x = 0.10$.
+* `L7ex5.py` - 
