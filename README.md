@@ -54,5 +54,5 @@ $$f(x) = A\sqrt{x}$$
     A visitor to a castle measures the depth of a well by dropping a stone and
 timing its fall. She finds the time to fall is $t=3.0 \pm 0.5$ s and calculates
 depth $d=gt^2/2$. What is her conclusion (numerical value), if she takes
-  * a) $g=9.80 m/s^2$ with negligible uncertainty
-  * b) $g=9.81 \pm 0.2 m/s^2$
+  * a) $g=9.80\ m/s^2$ with negligible uncertainty
+  * b) $g=9.81 \pm 0.2\ m/s^2$
