@@ -136,12 +136,12 @@ $$K_{max} = h\nu - W
 
 <ol>
   <li>
+  
   <ol type='a'>
     <li>Evaluated quality of fit using $\chi^2$ and $p$-value.</li>
 	<li>Calculated work function, $W$ from the y-intercept of the fitted equation for each metal. Compared the calculated $W$ to true $W_{true}$ for each metal using $f$-statistic and $p$-value.</li>
   </ol>
+  
   </li>
   <li>Calculated Planck's constant $h$ from linear fit on each metal. $h$ values for metals calculated by given by `h_data.csv` Quantified agreement between closest $h$-value $h_{best} \pm \sigma_{hbest}$ and true $h_{true}$ using $f$-statistic and $p$-value. Hypothesis testing of $h$ performed by `h_calc.py`.</li>
 </ol>
-
-2. Calculated Planck's constant $h$ from linear fit on each metal. $h$ values for metals calculated by given by `h_data.csv` Quantified agreement between closest $h$-value $h_{best} \pm \sigma_{hbest}$ and true $h_{true}$ using $f$-statistic and $p$-value. Hypothesis testing of $h$ performed by `h_calc.py`.
