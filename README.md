@@ -120,7 +120,21 @@ $$T = A+BP$$
 # Final Project
 
 See `Final Project` for files.
+* Python Source Files: `*.py`
 * Data Files: `*.csv`
 * Data Plots generated with Python: `*.png`
 * Lab Report - LaTeX source file: `shi_phy153_final_project.tex`
 * Lab Report - LaTeX compiled PDF: `shi_phy153_final_project.pdf`
+
+Fitted a linear model to plots of $K_{max}$ (kinetic energy) vs $\nu$ (frequency) for 5 different metals.
+* Sodium, Na
+* Platinum, Pt
+* Silver, Ag
+* Potassium, K
+* Cesium, Cs
+$$K_{max} = h\nu - W
+
+1.
+  a. Evaluated quality of fit using $\chi^2$ and $p$-value.
+  b. Calculated work function, $W$ from the y-intercept of the fitted equation for each metal. Compared the calculated $W$ to true $W_{true}$ for each metal using $f$-statistic and $p$-value.
+2. Calculated Planck's constant $h$ from linear fit on each metal. $h$ values for metals calculated by given by `h_data.csv` Quantified agreement between closest $h$-value $h_{best} \pm \sigma_{hbest}$ and true $h_{true}$ using $f$-statistic and $p$-value. Hypothesis testing of $h$ performed by `h_calc.py`.
