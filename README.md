@@ -117,10 +117,10 @@ $$T = A+BP$$
   * Give interpretation of a p-value
 * Compare the known value for the absolute zero temperature ($-273.15 ^\circ C$) with the fitted parameter. How good is the agreement (or disagreement)? Quantify your answer by giving the corresponding p-value and its interpretation.
 
-# Final Project**
+# Final Project
 
 See `Final Project` for files.
-* Data Files: `\*.csv`
-* Data Plots generated with Python: `\*.png`
+* Data Files: `*.csv`
+* Data Plots generated with Python: `*.png`
 * Lab Report - LaTeX source file: `shi_phy153_final_project.tex`
 * Lab Report - LaTeX compiled PDF: `shi_phy153_final_project.pdf`
