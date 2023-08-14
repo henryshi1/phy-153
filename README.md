@@ -102,11 +102,14 @@ Assume 10% uncertainty i.e. $\sigma_x/x = 0.10$.
 See `Homework/hw05` for assignment description `PHY153_HW05.pdf`, Lecture 15 slides `PHY153_Lecture15.pdf`, and Python code. Implemented solutions in file `shi_homework05.py`. Results are given in `shi_homework05_results.txt`.
 
 * Data
+
 |   P \[mm Hg\]    | 65  | 75 | 85 | 95 | 105 |
 | T \[$^\circ C$\] | -20 | 17 | 42 | 94 | 127 |
 |     $\sigma$     |  1  | 1  | 1  | 1  |  1  |
+
 * Functional form
-$$T = A+BP$$,
+$$T = A+BP$$
+
 * Find:
   * $A, B$ (fit parameters and their uncertainties)
   * $s_m$, ndf, $s_m/ndf$, p-value
