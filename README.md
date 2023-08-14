@@ -104,6 +104,7 @@ See `Homework/hw05` for assignment description `PHY153_HW05.pdf`, Lecture 15 sli
 * Data
 
 |   P \[mm Hg\]    | 65  | 75 | 85 | 95 | 105 |
+|       ---        | --- | ---| ---| ---| --- |
 | T \[$^\circ C$\] | -20 | 17 | 42 | 94 | 127 |
 |     $\sigma$     |  1  | 1  | 1  | 1  |  1  |
 
